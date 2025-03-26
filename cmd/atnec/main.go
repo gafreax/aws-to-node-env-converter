@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/yourusername/dotenv-transformer/internal/transformer"
+	"aws-to-node-env-converter/internal/transformer"
 )
 
 func main() {

@@ -1,4 +1,4 @@
-.PHONY: build install clean
+.PHONY: build install clean test
 
 # Binary name
 BINARY_NAME=atnec
@@ -8,6 +8,7 @@ GOCMD=go
 GOBUILD=$(GOCMD) build
 GOCLEAN=$(GOCMD) clean
 GOINSTALL=$(GOCMD) install
+GOTEST=$(GOCMD) test
 
 # Build directory
 BUILD_DIR=./bin
@@ -24,4 +25,4 @@ clean:
 	rm -rf $(BUILD_DIR)
 
 test:
-	$(GOCMD) test ./...
+	$(GOTEST) ./...
