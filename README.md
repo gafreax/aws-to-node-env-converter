@@ -1,4 +1,4 @@
-# Aws to node environment converter (atnec)
+# Dotenv Transformer (atnec)
 
 A simple CLI utility to transform environment files by removing comments and converting the format.
 
@@ -11,8 +11,8 @@ A simple CLI utility to transform environment files by removing comments and con
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/dotenv-transformer.git
-cd dotenv-transformer
+git clone https://github.com/gafreax/aws-to-node-env-converter.git
+cd aws-to-node-env-converter
 make install
 ```
 
@@ -33,3 +33,4 @@ atnec input.env output.env
 - Build: `make build`
 - Install: `make install`
 - Clean: `make clean`
+- Run Tests: `make test`
